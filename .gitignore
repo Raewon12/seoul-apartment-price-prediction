@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# 보안: API 키 파일 (절대 커밋 금지)
+*.key
+.env
+secrets*
+
+# 대용량 원본 데이터 (출처 링크로 대체 — README 참고)
+아파트(매매)_실거래가_*.csv
+apt_with_features*.csv
+단지_master_좌표*.csv
